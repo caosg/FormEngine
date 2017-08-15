@@ -1,5 +1,5 @@
 .idea/
 *.iml
 *.bak
-target
+**/node_modules/**
 target

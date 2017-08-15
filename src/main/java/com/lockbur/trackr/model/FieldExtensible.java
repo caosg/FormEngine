@@ -16,5 +16,5 @@ public class FieldExtensible implements Serializable {
 
     @Setter
     @Getter
-    private JSONObject extras;
+    private JSONObject extraFields;
 }
