@@ -13,16 +13,7 @@ import java.util.Date;
  */
 @Data
 @ToString
-public class Role implements Serializable {
-
-
-    private Integer id;
+public class Role extends Entity {
     private String name;//名称
     private JSONObject description;// 描述
-    private Integer creatorId;//创建人
-
-    //时间
-    private Date createTime;
-    private Date updateTime;
-
 }
