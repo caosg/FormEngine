@@ -1,7 +1,6 @@
 package com.lockbur.trackr.mapper;
 
 import com.lockbur.trackr.domain.Role;
-import com.lockbur.trackr.domain.User;
 import com.lockbur.trackr.rest.Pageable;
 
 import java.util.List;

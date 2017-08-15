@@ -1,5 +1,6 @@
 package com.lockbur.trackr.domain;
 
+import com.alibaba.fastjson.JSONObject;
 import lombok.Data;
 import lombok.ToString;
 
@@ -17,7 +18,7 @@ public class Role implements Serializable {
 
     private Integer id;
     private String name;//名称
-    private String description;// 描述
+    private JSONObject description;// 描述
     private Integer creatorId;//创建人
 
     //时间
